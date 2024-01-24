@@ -65,7 +65,7 @@ const SliderNews = () => {
                     <Slider ref={slider} {...settings} className='gap-2'>
                         {news.map((v, i) => {
                             return (
-                                <div className='blog'>
+                                <div key={i} className='blog'>
                                     <img className='w-[100%]' src={v.img} alt="image" />
                                     <div className='content'>
                                         <div>

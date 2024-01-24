@@ -17,7 +17,7 @@ const Blog = () => {
             <div className='flex flex-wrap justify-center gap-8 m-8'>
                 {blog.map((v, i) => {
                     return (
-                        <div className='w-[381px] relative hover'>
+                        <div key={i} className='w-[381px] relative hover'>
                             <Link href={v.href}>
                                 <img className='w-[381px] h-[320px]' src={v.img} alt="image" />
                                 <span className='px-4 py-2 bg-[#940F0F] text-[#fff] absolute bottom-[11.55rem] right-0'>{v.date}</span>

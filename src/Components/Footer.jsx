@@ -33,13 +33,13 @@ const Footer = () => {
                     <div>
                         <p className='text-[#FFFFFF] text-[24px] font-bold'>Follow us</p>
                         <div className='flex items-center gap-5 pt-[20px] hv'>
-                            <Link href={'https://www.facebook.com/profile.php?id=61552170716710'} target="_blank"><i class="fa-brands fa-facebook-f px-[0.90rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
-                            <Link href={''}><i class="fa-brands fa-linkedin-in px-[0.80rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
-                            <Link href={'https://www.instagram.com/linkbuilder295'} target="_blank"><i class="fa-brands fa-instagram px-[0.70rem] py-[0.60rem] text-[1.40rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
-                            <Link href={'https://twitter.com/bilalbilla009'} target="_blank"><i class="fa-brands fa-twitter py-[0.70rem] px-[0.75rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                            <Link href={'https://www.facebook.com/profile.php?id=61552170716710'} target="_blank"><i className="fa-brands fa-facebook-f px-[0.90rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                            <Link href={''}><i className="fa-brands fa-linkedin-in px-[0.80rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                            <Link href={'https://www.instagram.com/linkbuilder295'} target="_blank"><i className="fa-brands fa-instagram px-[0.70rem] py-[0.60rem] text-[1.40rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                            <Link href={'https://twitter.com/bilalbilla009'} target="_blank"><i className="fa-brands fa-twitter py-[0.70rem] px-[0.75rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
                         </div>
                         <div className='pt-[25px] hv'>
-                            <Link href={'https://bilalsaqib445@gmail.com'} target="_blank"><i class="fa-regular fa-envelope py-[0.70rem] px-[0.75rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                            <Link href={'https://bilalsaqib445@gmail.com'} target="_blank"><i className="fa-regular fa-envelope py-[0.70rem] px-[0.75rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
                         </div>
                     </div>
                     <div>

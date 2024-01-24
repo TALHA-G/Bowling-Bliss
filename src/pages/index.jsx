@@ -67,7 +67,7 @@ const MainPage = () => {
 
       {/* Reviews */}
 
-      <div id='reviews' spy={true} smooth={true} duration={500}>
+      <div id='reviews'>
 
         <div data-aos="fade-down" className='flex justify-center'>
           <span className='line'><p className='text-[#000000] text-[44px] font-extrabold pt-[26px] text-center family'>EXPERT'S REVIEWS</p></span>
