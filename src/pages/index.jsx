@@ -60,7 +60,7 @@ const MainPage = () => {
         {/* Blog Post */}
         <div className='bg-[#000] mx-10 py-10 my-16 text-[#fff] rounded-2xl shadow-xl'>
           <div data-aos="zoom-out" className='text-center text-[#940F0F] text-[20px] font-bold mt-8'><span className='pr-4'>BLOG POST</span></div>
-          <div data-aos="zoom-in" className='w-[100%] head text-[#fff] flex flex-col items-center'><h2 className='p-4 line'>EXPLORE ARCHREY'S WORLD</h2></div>
+          <div data-aos="zoom-in" className='w-[100%] head text-[#fff] flex flex-col items-center'><h2 className='p-4 line'>EXPLORE ARCHREYS WORLD</h2></div>
           <Blog />
         </div>
       </div>

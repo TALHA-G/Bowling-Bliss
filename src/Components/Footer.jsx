@@ -10,10 +10,10 @@ const Footer = () => {
                         <img src="/Images/MainLogo.svg" alt="" />
                     </Link>
                     <p className='text-[14px] text-[#b8b1b1] font-normal w-[273px] pl-[22px] leading-relaxed'>
-                        "BOWLING BLISS- Navigating the World of
+                        BOWLING BLISS- Navigating the World of
                         Precision Sports: Your go-to hub for top
                         notch darts and archery gear. Unlock
-                        Bowling Bliss with every choice!"
+                        Bowling Bliss with every choice
                     </p>
                     <i className='fa-regular fa-envelope text-[#fff] text-[18px] font-bold p-4'></i>&nbsp;bilalsaqib445@gmail.com
                 </div>
