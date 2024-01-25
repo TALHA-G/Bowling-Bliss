@@ -39,7 +39,7 @@ body {
   -webkit-text-stroke: 0vw #000000ce;
   overflow: hidden;
   animation: animate 4s linear forwards;
-  transition: ease 2s;
+  transition: ease 0.5s;
 }
 
 .nextlineAnimation::before {
