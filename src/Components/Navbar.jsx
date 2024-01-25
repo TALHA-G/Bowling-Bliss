@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='container'>
             <div className='navbar bg-[#000000] min-w-[1280px] max-w-[100%] h-[100px] flex justify-around items-center'>
                 <Link href={'/'}>
-                    <img className='w-[180px] ml-[-60px]' src="/Images/MainLogo.svg" alt="" />
+                    <img className='w-[180px] ml-[-60px]' src="/Images/MainLogo.svg" alt="img" />
                 </Link>
                 <ul className='list-none text-[#FFFFFF] family font-extrabold text-[20px] flex justify-center gap-[37px]'>
                     <li className='simple'><a href="/">Home</a></li>

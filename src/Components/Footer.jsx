@@ -15,7 +15,7 @@ const Footer = () => {
                         notch darts and archery gear. Unlock
                         Bowling Bliss with every choice!"
                     </p>
-                    <i class='fa-regular fa-envelope text-[#fff] text-[18px] font-bold p-4'></i>&nbsp;bilalsaqib445@gmail.com
+                    <i className='fa-regular fa-envelope text-[#fff] text-[18px] font-bold p-4'></i>&nbsp;bilalsaqib445@gmail.com
                 </div>
 
                 <div className='pt-[50px] flex gap-40'>

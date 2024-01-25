@@ -23,7 +23,7 @@ const Blog = () => {
                                 <span className='px-4 py-2 bg-[#940F0F] text-[#fff] absolute bottom-[11.55rem] right-0'>{v.date}</span>
                                 <span className='py-4 text-[16px] font-bold'>{v.title}</span>
                                 <h2 className='text-[22px] font-extrabold mt-2 font-[Lalezar,system-ui]'>{v.heading}</h2>
-                                <button className='text-[18px] font-semibold mt-3 py-6'><span className='bg-[#8d93a0] hover:bg-[#940F0F] transition-all text-[#fff] rounded-[50%] px-[0.80rem] py-2 mr-2'><i class="fa-solid fa-arrow-right"></i></span>READ MORE</button>
+                                <button className='text-[18px] font-semibold mt-3 py-6'><span className='bg-[#8d93a0] hover:bg-[#940F0F] transition-all text-[#fff] rounded-[50%] px-[0.80rem] py-2 mr-2'><i className="fa-solid fa-arrow-right"></i></span>READ MORE</button>
                             </Link>
                         </div>
                     )
@@ -34,7 +34,7 @@ const Blog = () => {
             <div className='mt-16 flex justify-center items-center mx-auto'>
                 <span className="active px-4 py-2 cursor-pointer font-semibold">1</span>&nbsp;
                 <span className="px-4 py-2 cursor-pointer font-semibold">2</span>&nbsp;&nbsp;&nbsp;
-                <i class='fa-solid fa-chevron-right'></i>
+                <i className='fa-solid fa-chevron-right'></i>
             </div>
         </>
     )

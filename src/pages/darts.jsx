@@ -46,7 +46,7 @@ const Darts = () => {
           {/* Blog Post */}
 
           <div className='mx-auto py-6 my-12 text-[#000]'>
-            <div data-aos="fade-down" className='w-[100%] head text-[#000000] mt-8 flex flex-col items-center'>
+            <div data-aos="fade-down" className='w-[100%] head text-[#000000] flex flex-col items-center'>
               <h2 className='p-4 line'>BLOG POST</h2>
             </div>
             <Blog />

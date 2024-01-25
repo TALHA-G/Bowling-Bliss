@@ -57,8 +57,8 @@ const SliderNews = () => {
         <>
             <div className='max-w-[1680px] mx-auto'>
                 <div className='w-[100%] flex justify-end px-20 mt-4'>
-                    <i onClick={() => slider.current.slickPrev()} class="fa-solid fa-chevron-left bg-[#940F0F] text-[#fff] p-2 cursor-pointer"></i>&nbsp;
-                    <i onClick={() => slider.current.slickNext()} class="fa-solid fa-chevron-right bg-black text-[#fff] p-2 cursor-pointer"></i>
+                    <i onClick={() => slider.current.slickPrev()} className="fa-solid fa-chevron-left bg-[#940F0F] text-[#fff] p-2 cursor-pointer"></i>&nbsp;
+                    <i onClick={() => slider.current.slickNext()} className="fa-solid fa-chevron-right bg-black text-[#fff] p-2 cursor-pointer"></i>
                 </div>
 
                 <div className='py-6 px-16'>
@@ -74,7 +74,7 @@ const SliderNews = () => {
                                         </div>
                                         <h2 className='text-[#fff] font-bold text-[20px] font-[Lalezer,system-ui] py-2 mb-2'>{v.heading}</h2>
                                         <Link href={v.href}>
-                                            <span className='text-[15px] text-[#fff] font-semibold py-2 read hover:text-[#000]'>READ MORE &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+                                            <span className='text-[15px] text-[#fff] font-semibold py-2 read hover:text-[#000]'>READ MORE &nbsp;<i className="fa-solid fa-arrow-right"></i></span>
                                         </Link>
                                     </div>
                                 </div>
