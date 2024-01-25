@@ -20,6 +20,58 @@ body {
 }
 
 /* Home page */
+
+.lineAnimation,
+.nextlineAnimation {
+  position: relative;
+  -webkit-text-stroke: 0.3vw #000000ce;
+}
+
+.lineAnimation::before,
+.nextlineAnimation::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #FFF;
+  -webkit-text-stroke: 0vw #000000ce;
+  overflow: hidden;
+  animation: animate 4s linear forwards;
+  transition: ease 2s;
+}
+
+.nextlineAnimation::before {
+  animation-delay: 2.5s;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  10%,
+  20%,
+  30% {
+    opacity: 1;
+  }
+
+  50% {
+    width: 26%;
+    opacity: 1;
+  }
+
+  70%,
+  90%,
+  100% {
+    width: 33%;
+    opacity: 1;
+  }
+
+}
+
 .img {
   color: #FFFFFF;
   width: 400px;
