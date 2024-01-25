@@ -19,10 +19,10 @@ const aboutUs = () => {
                         solve your problem. So, kindly if you don't get any solution
                         then mention it in the comment section.
                     </p>
-                        
+
                     <div className='flex gap-4 h-10 mt-12 hv'>
                         <Link href={'https://www.facebook.com/profile.php?id=61552170716710'} target="_blank"><i className="fa-brands fa-facebook-f px-[0.90rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
-                        <Link href={'/'}><i className="fa-brands fa-linkedin-in px-[0.80rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
+                        <Link href={'https://www.LinkedIn.com'}><i className="fa-brands fa-linkedin-in px-[0.80rem] py-[0.63rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
                         <Link href={'https://www.instagram.com/linkbuilder295'} target="_blank"><i className="fa-brands fa-instagram px-[0.70rem] py-[0.60rem] text-[1.40rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
                         <Link href={'https://twitter.com/bilalbilla009'} target="_blank"><i className="fa-brands fa-x-twitter py-[0.70rem] px-[0.75rem] text-[1.25rem] text-[#000] bg-[#fff] rounded-[50%]"></i></Link>
                     </div>

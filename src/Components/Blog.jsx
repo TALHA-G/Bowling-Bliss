@@ -31,11 +31,13 @@ const Blog = () => {
                 }
             </div>
 
-            <div className='mt-16 flex justify-center items-center mx-auto'>
+            {/* Here is the numbering of page, I made only 6 blog if you will make furthur more than you will use useState and uncomment this section below */}
+
+            {/* <div className='mt-16 flex justify-center items-center mx-auto'>
                 <span className="active px-4 py-2 cursor-pointer font-semibold">1</span>&nbsp;
                 <span className="px-4 py-2 cursor-pointer font-semibold">2</span>&nbsp;&nbsp;&nbsp;
                 <i className='fa-solid fa-chevron-right'></i>
-            </div>
+            </div> */}
         </>
     )
 }
