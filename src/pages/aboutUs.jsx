@@ -16,7 +16,7 @@ const aboutUs = () => {
                         why the darts and archery components he bought after
                         reading online reviews never live up to them.
                         His first wish is to provide you with a better solution to
-                        solve your problem. So, kindly if you don't get any solution
+                        solve your problem. So, kindly if you don&apos;t get any solution
                         then mention it in the comment section.
                     </p>
 

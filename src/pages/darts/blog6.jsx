@@ -37,7 +37,7 @@ const blog = () => {
                         <div>
                             <p className='text-[#000000] text-[30px] font-extrabold pt-[8px] max-w-[650px]'>CLASH OF TITANS IN THE UPCOMING BASKETBALL BATTLE MATCH</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px]'><i><span className='bg-[#940F0F] text-[#fff] px-3 py-1'>By Bowling</span>&nbsp;--&nbsp;January 20, 2024</i></p>
-                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>If you've ever played darts or have seen played, you might be familiar with the traditional dartboard made of cork or sisal.</p>
+                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>If you&apos;ve ever played darts or have seen played, you might be familiar with the traditional dartboard made of cork or sisal.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[30px] max-w-[770px]'>However, electronic dartboards have taken the game to a whole new level  incorporating advanced technology and innovative features.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[30px] max-w-[700px]'>What Is An Electronic Dartboard? The electronic dartboard is made of plastic casing has
                                 a segmented section with plastic molded holes measuring 15.5 inches in diameter.
@@ -47,13 +47,13 @@ const blog = () => {
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Electronic dartboards use a combination of advanced technologies track and score dart throws accurately.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>These boards are fitted with sensors and microchips that detect the impact of each dart and assign a point value accordingly.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>This is a significant improvement over traditional dartboards, which had to be scored manually.</p>
-                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Once a dart hits the board's surface, the sensors and microchip work together to determine the precise target struck and any bonuses or penalties that apply.</p>
+                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Once a dart hits the board&apos;s surface, the sensors and microchip work together to determine the precise target struck and any bonuses or penalties that apply.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>The digital display the board records and displays data such as accuracy,average score,
                                 current score, and previous scores. Electronic dartboards usually come with a variety of
                                 game options, allowing players to choose from multiple variations.</p>
                             <p className='text-[#000000] text-[30px] font-extrabold pt-[22px] max-w-[850px]'>Benefits Of Electronic Dartboards:</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Electronic dartboards have a significant drawback of frequently being more expensive
-                                than conventional dartboards. This might be a turnoff for casual players who don't want
+                                than conventional dartboards. This might be a turnoff for casual players who don&nbsp;t want
                                 to spend a lot of money on a dartboard.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Additionally, some players feel that electronic dartboards need more tactile sensation
                                 and the gratifying sound of a dart hitting a physical board, which detracts from the
@@ -77,13 +77,13 @@ const blog = () => {
                                 and assign a point value accordingly.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>This is a significant improvement over traditional dartboards, which had to be scored
                                 manually.</p>
-                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Once a dart hits the board's surface, the sensors and microchip work together to
+                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>Once a dart hits the board&apos;s surface, the sensors and microchip work together to
                                 determine the precise target struck and any bonuses or penalties that apply.</p>
                             <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>The digital display the board records and displays data such as accuracy,average score,
                                 current score, and previous scores. Electronic dartboards usually come with a variety of
                                 game options, allowing players to choose from multiple variations.</p>
                             <p className='text-[#000000] text-[30px] font-extrabold pt-[27px] max-w-[770px]'>Frequently Asked Questions (FAQs)</p>
-                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>If you've still got questions about what is an electronic dartboard, the following may help:</p>
+                            <p className='text-[#000000] text-[18px] font-normal pt-[20px] max-w-[770px]'>If you&apos;ve still got questions about what is an electronic dartboard, the following may help:</p>
                         </div>
                     </div>
                     <div>

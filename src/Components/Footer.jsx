@@ -1,19 +1,20 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
     return (
         <div className='container family'>
             <div className='bg-[#20222B] flex justify-center gap-[150px] pb-[30px] items-start'>
                 <div className='text-[#b8b1b1]'>
-                    <Link href={'/'}>
-                        <img src="/Images/MainLogo.svg" alt="" />
+                    <Link href={'/'}>            
+                        <Image width={160} height={159} src={"/Images/MainLogo.svg"}></Image>
                     </Link>
                     <p className='text-[14px] text-[#b8b1b1] font-normal w-[273px] pl-[22px] leading-relaxed'>
-                        BOWLING BLISS- Navigating the World of
+                       &quot;BOWLING BLISS- Navigating the World of
                         Precision Sports: Your go-to hub for top
                         notch darts and archery gear. Unlock
-                        Bowling Bliss with every choice
+                        Bowling Bliss with every choice!&quot;
                     </p>
                     <i className='fa-regular fa-envelope text-[#fff] text-[18px] font-bold p-4'></i>&nbsp;bilalsaqib445@gmail.com
                 </div>

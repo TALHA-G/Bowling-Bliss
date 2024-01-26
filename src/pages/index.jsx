@@ -60,7 +60,7 @@ const MainPage = () => {
         {/* Blog Post */}
         <div className='bg-[#000] mx-10 py-10 my-16 text-[#fff] rounded-2xl shadow-xl'>
           <div data-aos="zoom-out" className='text-center text-[#940F0F] text-[20px] font-bold mt-8'><span className='pr-4'>BLOG POST</span></div>
-          <div data-aos="zoom-in" className='w-[100%] head text-[#fff] flex flex-col items-center'><h2 className='p-4 line'>EXPLORE ARCHREYS WORLD</h2></div>
+          <div data-aos="zoom-in" className='w-[100%] head text-[#fff] flex flex-col items-center'><h2 className='p-4 line'>EXPLORE ARCHREY&apos;S WORLD</h2></div>
           <Blog />
         </div>
       </div>
@@ -70,7 +70,7 @@ const MainPage = () => {
       <div id='reviews'>
 
         <div data-aos="fade-down" className='flex justify-center'>
-          <span className='line'><p className='text-[#000000] text-[44px] font-extrabold pt-[26px] text-center family'>EXPERT'S REVIEWS</p></span>
+          <span className='line'><p className='text-[#000000] text-[44px] font-extrabold pt-[26px] text-center family'>EXPERT&apos;S REVIEWS</p></span>
         </div>
         <div className='flex justify-center gap-[60px] mt-[63px] mb-[40px]'>
           <img className='w-[650px] h-[500px]' src="/Images/review.png" alt="" />
