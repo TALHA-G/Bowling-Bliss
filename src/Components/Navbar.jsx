@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='container'>
             <div className='navbar bg-[#000000] min-w-[1280px] max-w-[100%] h-[100px] flex justify-around items-center'>
                 <Link href={'/'}>
-                    <Image width={160} height={159} src={"/Images/MainLogo.svg"}></Image>
+                    <Image className='p-2' width={160} height={159} src={"/Images/MainLogo.svg"}></Image>
                 </Link>
                 <ul className='list-none text-[#FFFFFF] family font-extrabold text-[20px] flex justify-center gap-[37px]'>
                     <li className='simple'><Link href={"/"}>Home</Link></li>
