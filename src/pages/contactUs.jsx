@@ -4,7 +4,7 @@ const contactUs = () => {
     return (
         <>
             <div className='p-4 mb-4 mx-auto container'>
-                <div className='w-[100%] head text-[#000000]'><h2 className='p-4'>Contact Us</h2></div>
+                <div className='animate__animated animate__zoomInUp w-[100%] head text-[#000000]'><h2 className='p-4'>Contact Us</h2></div>
                 <div className='min-h-[120vh] w-[100%] flex justify-center gap-24 items-center mb-9'>
                     <div className='flex flex-col gap-10 mt-4'>
                         <img src="/Images/contact1.png" alt="image" />

@@ -4,7 +4,7 @@ const privacyPolicy = () => {
     return (
         <>
             <div className='container mx-auto w-[100%] h-[100vh] term flex flex-col justify-center items-center'>
-                <div className='w-[100%] head text-[#fff]'><h2 className='p-4'>Privacy Policy</h2></div>
+                <div className='w-[100%] head text-[#fff]'><h2 className='animate__animated animate__fadeInDown p-4'>Privacy Policy</h2></div>
                 <div className='w-[1197px] bg-[#202020a8] px-8 py-12 text-[#fff]'>
                     <p className='text-[16px] font-semibold'>At Darts Bow Shoot, accessible from https://dartsbowshoot.com , one of our main priorities is the privacy of our visitors.</p>
                     <p className='text-[16px] pt-[20px] font-semibold'>This Privacy Policy document contains types of information that is collected and recorded by Darts Bow Shoot and how we use it.</p>

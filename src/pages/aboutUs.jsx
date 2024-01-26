@@ -5,7 +5,7 @@ const aboutUs = () => {
     return (
         <>
             <div className='w-[100%] h-[100vh] px-24 about flex justify-end items-center container mx-auto'>
-                <div className='w-[670px] h-[690px] bg-[#363636cc] p-8 text-[#fff]'>
+                <div className='animate__animated animate__fadeInUp w-[670px] h-[690px] bg-[#363636cc] p-8 text-[#fff]'>
                     <div className='w-[100%] head text-[#fff]'><h2 className='p-4'>About Us</h2></div>
                     <p className='text-[#fff] text-[16px] p-4 tracking-[0.8px] leading-10'>
                         Dartsbowshoot is a website that aims to introduce darts and

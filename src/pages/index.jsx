@@ -18,12 +18,12 @@ const MainPage = () => {
     <div className='container mx-auto'>
       <div className='background pl-[75px] pt-[122px] mx-auto'>
 
-        <p className='text-[#940F0F] text-[18px] font-medium family'>Bowling</p>
+        <p className='animate__animated animate__fadeInDown text-[#940F0F] text-[18px] font-medium family'>Bowling</p>
 
         <h2 data-text='DISCOVER THE WORLD OF' className='text-[#FFFFFF] text-[35px] font-bold lineAnimation'>DISCOVER THE WORLD OF</h2>
         <h2 data-text='DART AND ARCHERY' className='text-[#FFFFFF] text-[35px] font-bold nextlineAnimation'>DART AND ARCHERY</h2>
 
-        <p className='text-[22px] font-medium text-[#817e7e] w-[430px] h-[102px] mt-[22px]'>
+        <p className='animate__animated animate__zoomInUp text-[22px] font-medium text-[#817e7e] w-[430px] h-[102px] mt-[22px]'>
           Discover the world of darts and archery
           with us! From expert tips to fascinating
           facts,

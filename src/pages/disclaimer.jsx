@@ -4,7 +4,7 @@ const disclaimer = () => {
     return (
         <>
             <div className='w-[100%] h-[110vh] term flex flex-col justify-center items-center container mx-auto'>
-                <div className='w-[100%] head text-[#fff]'><h2 className='p-4'>Disclaimer</h2></div>
+                <div className='w-[100%] head text-[#fff]'><h2 className='animate__animated animate__fadeInDown p-4'>Disclaimer</h2></div>
                 <div className='w-[1197px] h-[600px] bg-[#202020a8] p-8 text-[#fff] leading-normal'>
                     <p className='text-[16px] font-semibold'>If you require more information or have any questions about our site&apos;s disclaimer, please get in touch with us by email at
                         muhammadasif.ceo@gmail.com.

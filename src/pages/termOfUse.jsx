@@ -4,7 +4,7 @@ const termOfUse = () => {
     return (
         <>
             <div className='container mx-auto w-[100%] h-[120vh] px-24 term flex flex-col justify-center items-center'>
-                    <div className='w-[100%] head text-[#fff]'><h2 className='p-4'>Terms Of Use</h2></div>
+                    <div className='w-[100%] head text-[#fff]'><h2 className='animate__animated animate__fadeInDown p-4'>Terms Of Use</h2></div>
                 <div className='w-[1197px] h-[690px] bg-[#202020a8] p-8 text-[#fff]'>
                     <div>
                         <h2 className='text-[25px] tracking-[1.65px] leading-normal font-bold'>Terms and Conditions</h2>

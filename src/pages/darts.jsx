@@ -4,6 +4,7 @@ import Link from 'next/link';
 import SliderNews from '@/Components/SliderNews';
 import LatestNews from '@/Components/LatestNews';
 import Blog from '@/Components/Blog';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,7 +20,7 @@ const Darts = () => {
         <div className='w-[100%] p-4 mb-4'>
           {/* LatestNews*/}
 
-            <div className='w-[100%] head text-[#000000] flex flex-col items-center'><h2 className='p-4 line'>LATEST NEWS</h2></div>
+            <div className='animate__animated animate__fadeInDown w-[100%] head text-[#000000] flex flex-col items-center'><h2 className='p-4 line'>LATEST NEWS</h2></div>
          
             <LatestNews />
 
