@@ -4,8 +4,6 @@ import Link from 'next/link';
 import SliderNews from '@/Components/SliderNews';
 import LatestNews from '@/Components/LatestNews';
 import Blog from '@/Components/Blog';
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,18 +17,18 @@ const MainPage = () => {
   return (
     <div className='container mx-auto'>
       <div className='background pl-[75px] pt-[122px] mx-auto'>
-        <Fade top>
-          <p className='text-[#940F0F] text-[18px] font-medium family'>Bowling</p>
-        </Fade>
+
+        <p className='text-[#940F0F] text-[18px] font-medium family'>Bowling</p>
+
         <h2 data-text='DISCOVER THE WORLD OF' className='text-[#FFFFFF] text-[35px] font-bold lineAnimation'>DISCOVER THE WORLD OF</h2>
         <h2 data-text='DART AND ARCHERY' className='text-[#FFFFFF] text-[35px] font-bold nextlineAnimation'>DART AND ARCHERY</h2>
-        <Zoom>
-          <p className='text-[22px] font-medium text-[#817e7e] w-[430px] h-[102px] mt-[22px]'>
-            Discover the world of darts and archery
-            with us! From expert tips to fascinating
-            facts,
-          </p>
-        </Zoom>
+
+        <p className='text-[22px] font-medium text-[#817e7e] w-[430px] h-[102px] mt-[22px]'>
+          Discover the world of darts and archery
+          with us! From expert tips to fascinating
+          facts,
+        </p>
+
         <div className='bg-[#940F0F] cursor-pointer border-2 border-[#940F0F] w-[156px] h-[51px] pt-[8px] rounded-[3px] pl-[9px] mt-[15px] hover:text-[#940F0F] hover:bg-transparent transition-all duration-700'>
           <button className='bg-transparent text-[19px] font-medium border-none text-[#FFFFFF]'>Discovery Now</button>
         </div>

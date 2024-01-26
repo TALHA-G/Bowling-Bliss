@@ -4,7 +4,6 @@ import Link from 'next/link';
 import SliderNews from '@/Components/SliderNews';
 import LatestNews from '@/Components/LatestNews';
 import Blog from '@/Components/Blog';
-import Fade from 'react-reveal/Fade';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,13 +18,10 @@ const Darts = () => {
       <div className='container mx-auto'>
         <div className='w-[100%] p-4 mb-4'>
           {/* LatestNews*/}
-          <Fade down>
-            <div className='w-[100%] head text-[#000000] flex flex-col items-center'><h2 className='p-4 line'>LATEST NEWS</h2></div>
-          </Fade>
 
-          <Fade up>
+            <div className='w-[100%] head text-[#000000] flex flex-col items-center'><h2 className='p-4 line'>LATEST NEWS</h2></div>
+         
             <LatestNews />
-          </Fade>
 
           <Link href={'/darts/news1'}>
             <div className='flex justify-center w-[100%]'>
