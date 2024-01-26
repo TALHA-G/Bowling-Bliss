@@ -36,14 +36,14 @@ body {
   width: 0;
   height: 100%;
   color: #FFF;
-  -webkit-text-stroke: 0vw #000000ce;
+  -webkit-text-stroke: 0.1vw #000000ce;
   overflow: hidden;
-  animation: animate 4s linear forwards;
+  animation: animate 3s linear forwards;
   transition: ease 0.5s;
 }
 
 .nextlineAnimation::before {
-  animation-delay: 2.5s;
+  animation-delay: 2s;
 }
 
 @keyframes animate {
@@ -52,9 +52,8 @@ body {
     opacity: 0;
   }
 
-  10%,
-  20%,
-  30% {
+  10%
+ {
     opacity: 1;
   }
 
@@ -209,12 +208,12 @@ body {
   overflow: hidden;
 }
 
-.navbar ul li a,
+.navbar ul li,
 .line {
   position: relative;
 }
 
-.navbar ul li a::after {
+.navbar ul li::after {
   content: '';
   width: 0;
   height: 3px;
@@ -237,7 +236,7 @@ body {
   transition: 0.5s;
 }
 
-.navbar ul li a:hover::after {
+.navbar ul li:hover::after {
   width: 100%;
 }
 

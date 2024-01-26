@@ -14,7 +14,7 @@ const Blog = () => {
 
     return (
         <>
-            <div className='flex flex-wrap justify-center gap-8 m-8'>
+            <div className='w-[100%] flex flex-wrap justify-center gap-8 m-8 mx-auto'>
                 {blog.map((v, i) => {
                     return (
                         <div key={i} className='w-[381px] relative hover'>
